@@ -1,4 +1,5 @@
 max = 100
+
 #2~maxまでの配列をつくる
 ans_array = []
 (2..max).each do |num|
