@@ -10,7 +10,7 @@ num = 0
 max = 4_000_000
 
 while fib(num) <= max 
-    ans += fib(num) if fib(num) % 2 == 0
+    ans += fib(num) if fib(num).even?
     num += 1
 end
 
